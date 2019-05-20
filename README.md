@@ -1,5 +1,4 @@
 
-Clone the repo git@bitbucket.org:houmie/website.git
 
 Setup Ruby on Mac (If you have linux or Windows I hope you know how to set it up yourself)
 		
