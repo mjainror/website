@@ -39,14 +39,17 @@ This is wrong.  ReplaceMe should have been “ReplaceMe Indonesian”.
 
 ### Solution:
 Under /myarticle.md you see: 
-
+```
 title: ReplaceMe
 title_id: ReplaceMe Indonesian
+```
 
 But it currently always picks title only. It doesn’t respect the languages. For example if you look at the perma links:
 
+```
 permalink: /my-article/
 permalink_id: /artikel-saya/
+```
 
 You will see that the website picks the correct perma link for Indonesian. It would be ideal to have the same for title.
 
@@ -65,15 +68,17 @@ Search this part:
 ```
 
 I like the same thing here: 
-
+```
 summary: Summary in English
 summary_id: Summary in Indonesian
+```
 
 AND
 
+```
 tags: [test1,test2]
 tags_id: [ind1,ind2]
-
+```
 
 Let me know if any questions.
 
