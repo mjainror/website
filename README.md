@@ -27,11 +27,13 @@ Under _site/id/artikel-saya/index.html search for ReplaceMe
 
 This is what you will find:
 
+```
 <article class="post h-entry article">
     <header class="post-header">
         <h1 class="post-title p-name">ReplaceMe</h1>
     </header>
 …
+```
 
 This is wrong.  ReplaceMe should have been “ReplaceMe Indonesian”.
 
@@ -53,14 +55,14 @@ You will see that the website picks the correct perma link for Indonesian. It wo
 Open _includes/head.html
 
 Search this part:
-
+```
 {% if page.summary %}
 <meta name="description" content="{{ page.summary | escape }}">
 {% endif %}
 {%if page.tags %}
 <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
 {%endif %}
-
+```
 
 I like the same thing here: 
 
