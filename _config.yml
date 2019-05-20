@@ -1,0 +1,54 @@
+environment: production
+email: houman@venuscloud.com
+baseurl: ""
+url: "https://"
+google_analytics:
+excerpt_separator: <!--more-->
+
+social_sites:
+  twitter:
+  # github:  jekyll
+  #dribbble: jekyll
+  facebook:
+  #flickr: jekyll
+  #instagram: jekyll
+  #linkedin: jekyll
+  #pinterest: jekyll
+  #youtube: jekyll
+  #googleplus: +jekyll
+
+rss: rss
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jekyll-sitemap
+
+languages: ["en", "id"]
+exclude_from_localizations: ["assets"]
+defaultLang: en
+languageNames:
+  id: Indonesian
+  en: English
+
+defaults:
+  -
+    scope:
+      path:            "base.html"
+    values:
+      sitemap:         false

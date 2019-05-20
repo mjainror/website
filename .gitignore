@@ -1,0 +1,8 @@
+.bundle
+.sass-cache
+Gemfile.lock
+_site
+*.gem
+assets/new-age/node_modules
+.DS_Store
+.idea/
