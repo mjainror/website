@@ -21,7 +21,7 @@ Now check the folder _site for the compiled files.
 _plugins/jekyll-multiple-languages-plugin/jekyll-multiple-languages-plugin.rb
 
 
-### Problem: 
+### Problem 1: 
 
 Under _site/id/artikel-saya/index.html search for ReplaceMe
 
