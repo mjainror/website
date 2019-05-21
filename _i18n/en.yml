@@ -1,2 +1,6 @@
 myarticle-url: /en/my-article/
 myarticle-text: This is my article
+title:
+  replace: ReplaceMe
+summary:
+  text: Summary in English
